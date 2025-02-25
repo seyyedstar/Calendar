@@ -1,0 +1,87 @@
+[versions]
+agp = "8.5.2"
+android-test = "1.6.1"
+android-test-runner = "1.6.2"
+androidx-activity = "1.9.0"
+androidx-core = "1.15.0"
+androidx-navigation = "2.8.6"
+androidx-test-ext-junit = "1.2.1"
+astronomy = "61dc07020aaa6885d2c7f688a4d82beaf6edb9ef" # is equal to v2.1.19
+browser = "1.8.0"
+compose-bom = "2025.01.01"
+coroutines = "1.10.1"
+dynamicanimation = "1.0.0"
+junit = "4.13.2"
+junit-runner = "1.11.4"
+junit5 = "5.11.4"
+kotlin = "2.1.10"
+kotlinpoet = "2.0.0"
+kotlinx-html-jvm = "0.12.0"
+kotlinx-serialization-json = "1.8.0"
+lifecycle = "2.8.7"
+mockito-core = "5.15.2"
+mockito-kotlin = "5.4.0"
+openlocationcode = "1.0.4"
+persiancalendar-calculator = "13a660cb0e5a5943ec7c496f4ff4c2c4631f9fcf"
+persiancalendar-calendar = "d9278c13466a04148e75f74508b4b11d0097bfe6"
+persiancalendar-praytimes = "0e619dfd2683acc0c6f0b53568ed78336a17057a"
+persiancalendar-qr = "4ef9d44178046f8704edbc8964fca968f75b08d5"
+truth = "1.4.4"
+work-manager = "2.10.0"
+cardview = "1.0.0"
+
+[libraries]
+activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "androidx-activity" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+astronomy = { group = "com.github.cosinekitty", name = "astronomy", version.ref = "astronomy" }
+browser = { group = "androidx.browser", name = "browser", version.ref = "browser" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+compose-activity = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity" }
+compose-animation = { group = "androidx.compose.animation", name = "animation-graphics-android" }
+compose-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+compose-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidx-navigation" }
+compose-runtime = { group = "androidx.compose.runtime", name = "runtime" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+dynamicanimation = { group = "androidx.dynamicanimation", name = "dynamicanimation", version.ref = "dynamicanimation" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+junit-jupiter-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", version.ref = "junit5" }
+junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version.ref = "junit5" }
+junit-jupiter-params = { group = "org.junit.jupiter", name = "junit-jupiter-params", version.ref = "junit5" }
+junit-platform-runner = { group = "org.junit.platform", name = "junit-platform-runner", version.ref = "junit-runner" }
+kotlinpoet = { group = "com.squareup", name = "kotlinpoet", version.ref = "kotlinpoet" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
+kotlinx-html-jvm = { group = "org.jetbrains.kotlinx", name = "kotlinx-html-jvm", version.ref = "kotlinx-html-jvm" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+lifecycle-service = { group = "androidx.lifecycle", name = "lifecycle-service", version.ref = "lifecycle" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito-core" }
+mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockito-kotlin" }
+openlocationcode = { group = "com.google.openlocationcode", name = "openlocationcode", version.ref = "openlocationcode" }
+persiancalendar-calculator = { group = "com.github.persian-calendar", name = "calculator", version.ref = "persiancalendar-calculator" }
+persiancalendar-calendar = { group = "com.github.persian-calendar", name = "calendar", version.ref = "persiancalendar-calendar" }
+persiancalendar-praytimes = { group = "com.github.persian-calendar", name = "praytimes", version.ref = "persiancalendar-praytimes" }
+persiancalendar-qr = { group = "com.github.persian-calendar", name = "qr", version.ref = "persiancalendar-qr" }
+test-core-ktx = { group = "androidx.test", name = "core-ktx", version.ref = "android-test" }
+test-rules = { group = "androidx.test", name = "rules", version.ref = "android-test" }
+test-runner = { group = "androidx.test", name = "runner", version.ref = "android-test-runner" }
+truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
+work-manager-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "work-manager" }
+androidx-cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
+[bundles]
+mockito = ["mockito-core", "mockito-kotlin"]
+lifecycle = ["lifecycle-runtime-ktx", "lifecycle-service"]
