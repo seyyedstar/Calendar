@@ -168,7 +168,7 @@ dependencies {
     implementation ("com.najva:sdk:1.8.4")
     implementation ("com.google.firebase:firebase-iid:21.1.0")
     implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation ("com.adivery:sdk:4.6.5")
+    implementation ("com.adivery:sdk:4.8.3")
 //    implementation ("com.google.android.material:material:1.9.0")
 
 }
